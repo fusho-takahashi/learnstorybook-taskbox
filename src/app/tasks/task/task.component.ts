@@ -1,9 +1,9 @@
-import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: "task-item",
-  templateUrl: "./task.component.html",
-  styleUrls: ["./task.component.scss"]
+  selector: 'task-item',
+  templateUrl: './task.component.html',
+  styleUrls: ['./task.component.scss'],
 })
 export class TaskComponent implements OnInit {
   constructor() {}
